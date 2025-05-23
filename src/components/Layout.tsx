@@ -49,7 +49,7 @@ function Layout() {
               <div className="flex flex-1 items-center justify-start">
               </div>
 
-              <div className="flex flex-1 items-center justify-start font-bold -translate-x-8"><h2>SATTAR ENTERPRISES HFD</h2></div>
+              <div className="flex flex-1 items-center justify-start font-bold -translate-x-8"><h2>USAMA TRADERS</h2></div>
 
               {/* Right: Notifications and Profile */}
               <div className="flex items-center space-x-4">

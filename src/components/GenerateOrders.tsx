@@ -247,7 +247,7 @@
 
 
 import html2pdf from 'html2pdf.js';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.jpg';
 import { useSelector } from 'react-redux';
 import { selectCurrentOrders } from '../redux/slices/orderSlice';
 import { paginator } from '../utils/paginator';
@@ -312,16 +312,16 @@ const invoices = Array.from(splitOrdersByCartLimit(selectedOrders,10), element =
         <div style="display: flex; justify-content: space-between; align-items: flex-start; font-size: 0.85em; padding: 5px 0;">
         <div style="text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column;">
         <div style="width: 45px; height: 45px; background-color: #ddd; border-radius: 50%; display: flex; justify-content: center; align-items: center; padding: 4px;"><img src=${logo} alt="OG" width="500" height="600"></div>
-        <p style="font-size: 8px">Be Pakistani Buy Pakistani</p>
+        <p style="font-size: 8px">PYO SAR UTHA KE!</p>
         </div>
         <div style="text-align: center;">
-                <h1 style="font-family: Arial, sans-serif; font-size: 1.1em; margin: 0; color: #333;"><strong>SATTAR ENTERPRISES HAFIZABAD</strong></h1>
-        <h1 style="font-family: Arial, sans-serif; font-size: 1.1em; margin: 0; color: #333;"><strong>INVOICE MASTER-COLA</strong></h1>
+                <h1 style="font-family: Arial, sans-serif; font-size: 1.1em; margin: 0; color: #333;"><strong>USAMA TRADERS</strong></h1>
+        <h1 style="font-family: Arial, sans-serif; font-size: 1.1em; margin: 0; color: #333;"><strong>INVOICE KHILAFAT-COLA</strong></h1>
         <p>order no. <strong>${element.orderNumber}</strong></p>
         </div>
             <div style="text-align: right;">
                 <div>Kolo Road Hafizabad</div>
-                <div><strong>Contact Us</strong> +92 347 3919512</div>
+                <div><strong>Contact Us</strong> +92 343 6768695</div>
                 <div><strong>(For Services logding Complaints)</strong></div>
             </div>
         </div>

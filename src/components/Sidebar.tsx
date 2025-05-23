@@ -1,6 +1,6 @@
 import { ChevronFirst, ChevronLast, MoreVertical } from "lucide-react"
 import { createContext, useContext, useState } from "react"
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 import { Link, Navigate, NavLink } from "react-router-dom";
 
 const SidebarContext = createContext();

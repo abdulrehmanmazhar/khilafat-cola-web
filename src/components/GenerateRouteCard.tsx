@@ -1,5 +1,5 @@
 import html2pdf from 'html2pdf.js';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.jpg';
 import { useSelector } from 'react-redux';
 import { selectCurrentOrders } from '../redux/slices/orderSlice';
 import { objectCollector } from '../utils/objectCollector';
