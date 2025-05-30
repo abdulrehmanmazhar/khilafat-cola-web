@@ -63,9 +63,9 @@ const invoices = Array.from(groupOrders(selectedOrders), (element,index) => {
         <p>${element[0].customerDetails.route}</p>
         </div>
             <div style="text-align: right;">
-                <div><strong>Sattar Enterprises</strong></div>
+                <div><strong>USAMA TRADERS</strong></div>
                 <div>Kolo Road Hafizabad</div>
-                <div>Phone: +92 340 4646799</div>
+                <div>Phone: +92 343 6768695</div>
             </div>
         </div>
         <div style="display: flex; justify-content: space-between; font-size: 0.80em; margin: 5px 0;">
