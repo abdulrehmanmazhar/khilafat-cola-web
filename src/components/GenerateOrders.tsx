@@ -365,7 +365,7 @@ const invoices = Array.from(splitOrdersByCartLimit(selectedOrders,10), element =
         <div style="text-align: right; font-size: 0.8em; margin-top: 5px;">
             <div>Subtotal: PKR ${element.price}</div>
             <div>Tax (0%): PKR 0</div>
-            <div>Discounts: PKR ${element.discount}</div>
+            ${element.discount>0 && `<div>Discounts: PKR ${element.discount}</div>`}
             <div style="font-weight: bold;">Grand Total: PKR ${element.price-element.discount}</div>
         </div>
         <div style="text-align: center; font-size: 0.7em; color: #888; margin-top: 5px;">
